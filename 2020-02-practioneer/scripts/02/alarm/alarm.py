@@ -8,9 +8,8 @@ local_time = time.localtime(time.time())
 hour = getattr(local_time, "tm_hour")
 minute = getattr(local_time, "tm_min")
 
-# config = configparser.ConfigParser()
-# config.read("config.ini")
 
+# configuration times
 config = toml.load("config.toml")
 
 lunch_time = config.get("lunch")
