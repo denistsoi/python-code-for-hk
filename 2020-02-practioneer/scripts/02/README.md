@@ -6,8 +6,9 @@ Homework:
 3. send email  
 
 
-### 1 (from 01 class)
+### 1 (from 01 class) 
 
+> check `homework_1.ipynb` folder in `scripts/01`
 
 ### 2 
 
