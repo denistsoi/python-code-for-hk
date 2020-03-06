@@ -26,6 +26,6 @@ while True:
     elif hour == class_time:
         print("class")
         message.slack_message("#testing", "python practioner", False)
-    print(type(hour),  type(class_time))
+
     print("purr - sleep", hour)
     time.sleep(60)
